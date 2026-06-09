@@ -1,0 +1,18 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap");*/
+@import "tailwindcss"; 
+
+
+
+/* @import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+} */
