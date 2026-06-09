@@ -107,7 +107,7 @@ const verticals = [
 
 export default function GrowthPathwaysSection() {
   return (
-    <section className="bg-[#f6f7fc] py-12 lg:py-10">
+    <section id="models" className="bg-[#f6f7fc] py-12 lg:py-10">
       <div className="mx-auto  px-6 lg:px-10">
         <div className="text-center">
           <div className="inline-flex items-center rounded-full border border-[#d8d3f5] bg-[#f1eeff] px-4 py-[6px] text-[8px] font-semibold uppercase tracking-[0.18em] text-[#2113a8]">

@@ -21,7 +21,7 @@ const steps = [
 
 export default function DevelopmentModelSection() {
   return (
-    <section className="bg-[#f6f7fc] py-10 lg:py-12 overflow-hidden">
+    <section id="solution" className="bg-[#f6f7fc] py-10 lg:py-12 overflow-hidden">
       <div className="mx-auto  px-6 lg:px-10">
 
         {/* Badge */}

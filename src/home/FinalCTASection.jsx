@@ -3,7 +3,7 @@ import { CalendarDays, Phone, Sparkles } from "lucide-react";
 
 export default function FinalCTASection() {
   return (
-    <section className="relative overflow-hidden bg-[#2b006f] py-20 lg:py-10 text-white">
+    <section id="cta" className="relative overflow-hidden bg-[#2b006f] py-20 lg:py-10 text-white">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(100,40,190,0.55),transparent_58%)]" />
 
       <div className="relative z-10 mx-auto max-w-[850px] px-6 text-center">

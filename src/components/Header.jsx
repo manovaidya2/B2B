@@ -20,9 +20,12 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-[38px] flex-1 justify-center">
-          <a href="#about" className="text-[#54566e] text-[16px] hover:text-[#4b2bbb]">
-            About
-          </a>
+        <a
+  href="#about"
+  className="text-[#54566e] text-[16px] hover:text-[#4b2bbb]"
+>
+  About
+</a>
 
           <a href="#solution" className="text-[#54566e] text-[16px] hover:text-[#4b2bbb]">
             Solution
@@ -32,7 +35,7 @@ export default function Header() {
             Models
           </a>
 
-          <a href="#contact" className="text-[#54566e] text-[16px] hover:text-[#4b2bbb]">
+          <a href="#cta" className="text-[#54566e] text-[16px] hover:text-[#4b2bbb]">
             Contact
           </a>
         </nav>

@@ -38,7 +38,7 @@ const features = [
 
 export default function EcosystemSection() {
   return (
-    <section className="bg-[#f6f7fb] py-14 lg:py-20 overflow-hidden">
+    <section id="about" className="bg-[#f6f7fb] py-14 lg:py-20 overflow-hidden">
       <div className="mx-auto  px-6 lg:px-10">
         <div className="inline-flex items-center rounded-full border border-[#d8d3f5] bg-[#f1eeff] px-4 py-[6px] text-[9px] font-semibold uppercase tracking-[0.18em] text-[#4b2bbb]">
           ⊙ THE MANOVAIDYA ECOSYSTEM
