@@ -28,7 +28,9 @@ export default function FinalCTASection() {
 
         <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="#call"
+            href="https://wa.me/919718184613"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex h-[46px] min-w-[230px] items-center justify-center gap-3 rounded-[7px] bg-white px-6 text-[14px] font-semibold text-[#2b006f]"
           >
             <CalendarDays className="h-4 w-4" />

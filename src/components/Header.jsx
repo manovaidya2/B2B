@@ -60,7 +60,9 @@ export default function Header() {
           {/* Desktop Button */}
           <div className="hidden md:flex w-auto justify-end">
             <a
-              href="#schedule"
+              href="https://wa.me/919718184613"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-[40px] px-[20px] rounded-[10px] bg-[#4b2bbb] text-white text-[14px] font-semibold shadow-[0_4px_10px_rgba(0,0,0,0.18)] hover:bg-[#3a1f9e] transition-all hover:scale-105"
             >
               Schedule Call
@@ -118,7 +120,9 @@ export default function Header() {
           {/* Mobile Schedule Call Button */}
           <div className="pt-4 mt-2 border-t border-gray-200">
             <a
-              href="#schedule"
+              href="https://wa.me/919718184613"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center w-full h-[44px] px-[20px] rounded-[10px] bg-[#4b2bbb] text-white text-[14px] font-semibold shadow-[0_4px_10px_rgba(0,0,0,0.18)] hover:bg-[#3a1f9e] transition-all"
               onClick={closeMenu}
             >

@@ -55,7 +55,9 @@ export default function HeroSection() {
           </a>
 
           <a
-            href="#call"
+            href="https://wa.me/919718184613"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex h-[36px] min-w-[140px] items-center justify-center rounded-[4px] border border-white/60 bg-transparent px-5 text-[13px] font-semibold text-white"
           >
             Request Selection Call
