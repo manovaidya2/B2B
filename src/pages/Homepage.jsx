@@ -1,10 +1,11 @@
 import React from "react";
 import HeroSection from "../home/HeroSection";
 import PartnershipModelsSection from "../home/PartnershipModelsSection";
+import PartnershipClaritySection from "../home/PartnershipClaritySection";
 import EcosystemSection from "../home/EcosystemSection";
 import MarketRealitySection from "../home/MarketRealitySection";
 import DevelopmentModelSection from "../home/DevelopmentModelSection";
-import GrowthPathwaysSection from "../home/GrowthPathwaysSection";
+// import GrowthPathwaysSection from "../home/GrowthPathwaysSection";
 import WorkflowSection from "../home/WorkflowSection";
 import PartnerProfileSection from "../home/PartnerProfileSection";
 import ClinicalEcosystemSection from "../home/ClinicalEcosystemSection";
@@ -20,11 +21,12 @@ export default function Homepage() {
   return (
     <>
  <HeroSection />
- <PartnershipModelsSection />
  <EcosystemSection />
  <MarketRealitySection />
  <DevelopmentModelSection />
- <GrowthPathwaysSection />
+ {/* <GrowthPathwaysSection /> */}
+ <PartnershipModelsSection />
+ <PartnershipClaritySection />
  <WorkflowSection />
  <PartnerProfileSection />
  <ClinicalEcosystemSection />

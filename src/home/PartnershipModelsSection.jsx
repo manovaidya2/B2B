@@ -1,6 +1,5 @@
+import { Check, TrendingUp } from "lucide-react";
 import React from "react";
-import { TrendingUp } from "lucide-react";
-
 const partnerModels = [
   {
     level: "Level 01",
@@ -8,6 +7,12 @@ const partnerModels = [
     subtitle: "Refer Suitable Patients. Continue What You Already Do.",
     bestFor:
       "Psychologists, therapists, therapy centres, child development centres and allied professionals who want to offer their patients access to Manovaidya's structured clinical system without changing their existing setup.",
+    benefits: [
+      "Minimal operational involvement",
+      "No dedicated setup required",
+      "Understand the Manovaidya ecosystem",
+      "Create an additional referral-based opportunity",
+    ],
   },
   {
     level: "Level 02",
@@ -16,6 +21,13 @@ const partnerModels = [
     subtitle: "Bring Scheduled Manovaidya OPDs to Your Existing Centre.",
     bestFor:
       "Established psychologists, therapy centres and child development centres with an existing patient base and infrastructure that can host scheduled Manovaidya OPDs.",
+    benefits: [
+      "Scheduled clinical OPDs",
+      "Use existing infrastructure",
+      "Activate your existing patient base",
+      "Build stronger local collaboration",
+      "Enhanced commercial opportunity",
+    ],
   },
   {
     level: "Level 03",
@@ -24,6 +36,16 @@ const partnerModels = [
     subtitle: "Build a Permanent Manovaidya Clinical Presence in Your City.",
     bestFor:
       "Established therapy centres, psychologists, healthcare entrepreneurs and centre owners who want to add a complete Manovaidya vertical alongside their existing business.",
+    benefits: [
+      "Dedicated Manovaidya vertical",
+      "Structured local operations",
+      "Autism & Neurodevelopment",
+      "Adult Mental Health",
+      "Central systems",
+      "Marketing & sales infrastructure under agreed model",
+      "Multiple potential revenue streams",
+      "Long-term local growth opportunity",
+    ],
     featured: true,
   },
 ];
@@ -90,6 +112,35 @@ function PartnerCard({ model }) {
       >
         {model.bestFor}
       </p>
+
+      <div
+        className={`mt-7 border-t pt-6 ${
+          model.featured ? "border-white/20" : "border-[#ddd7f2]"
+        }`}
+      >
+        <ul className="space-y-4">
+          {model.benefits.map((benefit) => (
+            <li key={benefit} className="flex items-start gap-3">
+              <span
+                className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full ${
+                  model.featured
+                    ? "bg-white/10 text-[#ffd000]"
+                    : "bg-[#f0edff] text-[#6d35ef]"
+                }`}
+              >
+                <Check className="h-4 w-4" strokeWidth={2.5} />
+              </span>
+              <span
+                className={`text-[14px] leading-[1.55] sm:text-[15px] ${
+                  model.featured ? "text-white" : "text-[#60658c]"
+                }`}
+              >
+                {benefit}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </article>
   );
 }
@@ -128,6 +179,18 @@ export default function PartnershipModelsSection() {
           {partnerModels.map((model) => (
             <PartnerCard key={model.level} model={model} />
           ))}
+        </div>
+
+        <div className="mt-10 bg-[#f4f0ff] px-5 py-10 text-center sm:px-8 lg:py-12">
+          <h3 className="mx-auto max-w-[1250px] text-[20px] font-bold uppercase leading-[1.0] text-[#120062] sm:text-[24px] lg:text-[22px]">
+            Start Simple. <span className="text-[#6226df]">Prove Demand.</span>{" "}
+            Expand When the Model Makes Business Sense.
+          </h3>
+          <p className="mx-auto mt-5 max-w-[1150px] text-[14px] leading-[1.65] text-[#8279aa] sm:text-[16px]">
+            Progression is not automatic. Every partnership level remains
+            subject to Manovaidya&apos;s eligibility, operational review and
+            final commercial agreement.
+          </p>
         </div>
       </div>
     </section>
